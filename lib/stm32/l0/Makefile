@@ -44,6 +44,8 @@ OBJS		+= crs_common_all.o
 OBJS            += usb.o usb_control.o usb_standard.o
 OBJS            += st_usbfs_core.o st_usbfs_v2.o
 
+OBJS		+= spi.o spi_common_all.o spi_common_l1f124.o
+
 VPATH += ../../usb:../:../../cm3:../common
 
 include ../../Makefile.include
